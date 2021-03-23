@@ -2,7 +2,7 @@ from TripleExtractor import TripleExtractor
 import re
 import pandas as pd
 import numpy as np
-
+from os import path
 
 def clean_text(text):
     return re.sub("[^A-Za-z0-9 .!?,]", "", text)
@@ -12,11 +12,13 @@ def get_spo(triple):
 
 if __name__ == "__main__":
     te = TripleExtractor()
-    te.install()
+
+    if not path.exists("corenlp"):
+        te.install()
     te.import_FB15k_relations()
 
     train = pd.read_csv("fake-news/train.csv")
-    train.drop(train['text'].isna().index, inplace=True)
+    train.drop(train[train['text'].isna()].index, inplace=True)
     train['text'] = train['text'].apply(lambda text: clean_text(text))
     
     extracted_triples = []
