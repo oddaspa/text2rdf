@@ -16,7 +16,7 @@ if __name__ == "__main__":
     te.import_FB15k_relations()
 
     train = pd.read_csv("fake-news/train.csv")
-
+    train.drop(train['text'].isna().index, inplace=True)
     train['text'] = train['text'].apply(lambda text: clean_text(text))
     
     extracted_triples = []

@@ -5,7 +5,7 @@ class TripleExtractor:
             "openie.triple.strict":"true",
             "openie.resolve_coref" :"true"
         },
-        memory_use = '8G',
+        memory_use = '12G',
         server_endpoint = 'http://localhost:9000',
         timeout = 1.5 * 60 * 1000,
         verbose = False,
