@@ -16,16 +16,14 @@ if __name__ == "__main__":
     te.import_FB15k_relations()
 
     train = pd.read_csv("fake-news/train.csv")
-    test_pd = train.iloc[0:3]
-    clean_test = test_pd
 
-    clean_test['text'] = clean_test['text'].apply(lambda text: clean_text(text))
+    train['text'] = train['text'].apply(lambda text: clean_text(text))
     
     extracted_triples = []
     entities = []
-    for i in range(clean_test.shape[0]):
+    for i in range(train.shape[0]):
         tmp_triples = []
-        te.get_doc(clean_test.iloc[i].text)
+        te.get_doc(train.iloc[i].text)
         te.getValidTriples()
         te.set_experimental_relationship()
         te.set_only_FB15K_valid_triples()
