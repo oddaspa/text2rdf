@@ -34,9 +34,9 @@ if __name__ == "__main__":
             entities.append(triple.object)
         extracted_triples.append(tmp_triples)
     
-    clean_test['triple'] = extracted_triples
+    train['triple'] = extracted_triples
 
-    clean_test.to_csv("clean_test.csv")
+    train.to_csv("data_test.csv")
     entities = np.unique(entities)
     entities = pd.Series(entities)
     entities.to_csv("entities.csv")
