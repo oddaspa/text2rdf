@@ -2,9 +2,12 @@ from TripleExtractor import TripleExtractor
 import re
 import pandas as pd
 import numpy as np
+import os
 from os import path
 from tqdm import tqdm
-import logging, sys
+import logging, sys, threading
+from multiprocessing import Pool
+
 
 def clean_text(text):
     return re.sub("[^A-Za-z0-9 .!?,]", "", text)
@@ -12,36 +15,43 @@ def clean_text(text):
 def get_spo(triple):
     return triple.subject + ", " + triple.relation + ", " + triple.object
 
-if __name__ == "__main__":
-    logging.disable(sys.maxsize)
-    te = TripleExtractor()
+def extract_triple(text):
+    extractor = TripleExtractor()
+    extractor.import_FB15k_relations()
+    extractor.get_doc(text)
+    extractor.getValidTriples()
+    extractor.set_experimental_relationship()
+    extractor.set_only_FB15K_valid_triples()
+    extractor.set_prefered_ner()
+    tmp_triples = []
 
+    for triple in extractor.triples:
+        tmp_triples.append([triple.subject, triple.relation, triple.object])
+    return tmp_triples
+
+
+if __name__ == "__main__":
+    # Multiprocessing
+    pool = Pool(os.cpu_count())
+    # remove INFO logging
+    logging.disable(sys.maxsize)
+
+    # initialize extractor
+    te = TripleExtractor()
     if not path.exists("corenlp"):
         te.install()
     te.import_FB15k_relations()
 
     train = pd.read_csv("fake-news/train.csv")
+    train = train.iloc[:10]
     train.drop(train[train['text'].isna()].index, inplace=True)
     train['text'] = train['text'].apply(lambda text: clean_text(text))
 
     # initialize empty
     train['triple'] = ["NaN"] * train.shape[0]
+    inputs = train['text']
     
-    extracted_triples = []
-    for i in tqdm(range(train.shape[0])):
-        tmp_triples = []
-        try:
-            te.get_doc(train.iloc[i].text)
-            te.getValidTriples()
-            te.set_experimental_relationship()
-            te.set_only_FB15K_valid_triples()
-            te.set_prefered_ner()
-            for triple in te.triples:
-                tmp_triples.append([triple.subject, triple.relation, triple.object])
-            if(tmp_triples != []):
-                train.loc[i, "triple"] = [tmp_triples]
+    extracted_triples = pool.map(extract_triple, inputs)
+    train["triple"] = extract_triple
     
-            # save each step
-            train.to_csv("data_test.csv")
-        except:
-            print(f"Exception at index {i}.")
+    train.to_csv("data_test.csv")
