@@ -13,7 +13,7 @@ class TripleExtractor:
             "openie",
         ],
         properties={"openie.triple.strict": "true", "openie.resolve_coref": "true"},
-        memory_use="12G",
+        memory_use="8G",
         server_endpoint="http://localhost:9000",
         timeout=5 * 60 * 1000,
         verbose=False,
@@ -41,7 +41,6 @@ class TripleExtractor:
         self.timeout = timeout
         self.be_quiet = not verbose
         self.STOP_WORDS = STOP_WORDS
-        self.RELATION_MATRIX = []
         self.doc = None
         self.triples = None
 
@@ -118,16 +117,16 @@ class TripleExtractor:
 
         for rel in relations:
             RELATION_MATRIX.append(rel.split("/")[1:])
-        self.RELATION_MATRIX = RELATION_MATRIX
+        return RELATION_MATRIX
 
-    def getNewRelation(self, triple):
+    def getNewRelation(self, triple, RELATION_MATRIX):
         import numpy as np
 
         curr_ner = self.GetAllNER(triple)
         curr_ner = [n.lower() for n in curr_ner]
         most_common = []
         most_common_score = 0
-        for rel in self.RELATION_MATRIX:
+        for rel in RELATION_MATRIX:
             common_score = sum(el in np.unique(curr_ner) for el in np.unique(rel))
             if common_score == most_common_score:
                 most_common.append(rel)
@@ -139,10 +138,10 @@ class TripleExtractor:
             return "/".join(most_common[0])
         return False
 
-    def set_experimental_relationship(self):
+    def set_experimental_relationship(self, RELATION_MATRIX):
         new_triples = self.triples
         for triple in new_triples:
-            new_rel = self.getNewRelation(triple)
+            new_rel = self.getNewRelation(triple, RELATION_MATRIX)
             if new_rel:
                 triple.relation = new_rel
         self.triples = new_triples
