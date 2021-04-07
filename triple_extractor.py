@@ -13,9 +13,10 @@ class TripleExtractor:
             "openie",
         ],
         properties={"openie.triple.strict": "true", "openie.resolve_coref": "true"},
+        timeout=5 * 60 * 1000,
+        threads=5,
         memory_use="8G",
         server_endpoint="http://localhost:9000",
-        timeout=5 * 60 * 1000,
         verbose=False,
         STOP_WORDS=[
             "O",
