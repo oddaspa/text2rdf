@@ -3,7 +3,7 @@ class TripleExtractor:
         self,
         timeout=5 * 60 * 1000,
         threads=5,
-        memory_use="8G",
+        memory_use="12G",
         server_endpoint="http://localhost:9000",
         verbose=False,
         STOP_WORDS=[
