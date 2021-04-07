@@ -13,7 +13,7 @@ if __name__ == "__main__":
         END_SLICE = int(sys.argv[-1])
         print(f"slice from {START_SLICE} to {END_SLICE}")
     except:
-        print(f"WRONG FORMAT OF SLICES. SHOULD BE INTEGERS BUT GOT: {START_SLICE} and {END_SLICE}")
+        print(f"WRONG FORMAT OF SLICES. SHOULD BE INTEGERS BUT GOT: {sys.argv[2]} and {sys.argv[-1]}")
     logging.disable(sys.maxsize)
 
     cpu_count = os.cpu_count()

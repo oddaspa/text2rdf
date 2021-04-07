@@ -1,18 +1,6 @@
 class TripleExtractor:
     def __init__(
         self,
-        annotators=[
-            "tokenize",
-            "ssplit",
-            "pos",
-            "lemma",
-            "ner",
-            "parse",
-            "depparse",
-            "coref",
-            "openie",
-        ],
-        properties={"openie.triple.strict": "true", "openie.resolve_coref": "true"},
         timeout=5 * 60 * 1000,
         threads=5,
         memory_use="8G",
@@ -34,9 +22,6 @@ class TripleExtractor:
 
         self.corenlp_dir = "./corenlp"
         os.environ["CORENLP_HOME"] = self.corenlp_dir
-
-        self.annotators = annotators
-        self.properties = properties
         self.memory_use = memory_use
         self.server_endpoint = server_endpoint
         self.timeout = timeout
@@ -59,14 +44,14 @@ class TripleExtractor:
         from stanza.server import CoreNLPClient
 
         with CoreNLPClient(
-            annotators=self.annotators,
-            properties=self.properties,
+            properties='properties.props',
             memory=self.memory_use,
             endpoint=self.server_endpoint,
             be_quiet=self.be_quiet,
             timeout=self.timeout,
         ) as client:
             self.doc = client.annotate(text)
+        
 
     # NER RELATED
     def getNER(self, tokens):

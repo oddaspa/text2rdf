@@ -1,0 +1,8 @@
+openie.triple.strict = true
+
+openie.resolve_coref = true
+
+annotators = tokenize,ssplit,pos,lemma,ner,parse,depparse,coref,openie
+
+outputFormat = serialized
+
