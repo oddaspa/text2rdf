@@ -4,7 +4,7 @@ from load_data import load_data
 import numpy as np
 from tqdm import tqdm
 import os, logging, sys
-
+from uuid import uuid4
 if __name__ == "__main__":
     file_name = sys.argv[0]
     try:
@@ -23,10 +23,17 @@ if __name__ == "__main__":
         te.install()
     RELATION_MATRIX = te.import_FB15k_relations()
 
-    path = "./liar_dataset/"
+    path_dataset = "./liar_dataset/"
+    path_triple_dataset = "./liar_dataset_triples"
     tag = ".csv"
-    data = load_data(path + NAME + tag, START_SLICE, END_SLICE)
-    
+    data = load_data(path_dataset + NAME + tag, START_SLICE, END_SLICE)
+
+    UNIQUE_ID = str(uuid4())
+    if not os.path.exists(path_triple_dataset):
+        os.mkdir(path_triple_dataset)
+    path = "./liar_dataset/"
+    dataset_name = os.path.join(path_triple_dataset, NAME + "_triple_" + UNIQUE_ID + tag)
+
     for i in tqdm(range(data.shape[0])):
         tmp_triples = []
         try:
@@ -41,6 +48,6 @@ if __name__ == "__main__":
                 data.loc[i, "triple"] = [tmp_triples]
 
             # save each step
-            data.to_csv(NAME + "_triple" + tag)
+            data.to_csv(dataset_name)
         except:
             print(f"Exception at index {i}.")
