@@ -13,5 +13,5 @@ def load_data(path, START_SLICE, END_SLICE):
     # initialize empty
     df["triple"] = ["NaN"] * df.shape[0]
     if START_SLICE == -1:
-        return df.iloc[0:2]
+        return df
     return df.iloc[START_SLICE:END_SLICE]
