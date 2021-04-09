@@ -23,15 +23,15 @@ if __name__ == "__main__":
         te.install()
     RELATION_MATRIX = te.import_FB15k_relations()
 
-    path_dataset = "./liar_dataset/"
-    path_triple_dataset = "./liar_dataset_triples"
+    path_dataset = "./fakenewsnet/"
+    path_triple_dataset = "./fakenewsnet_triples"
     tag = ".csv"
     data = load_data(path_dataset + NAME + tag, START_SLICE, END_SLICE)
 
     UNIQUE_ID = str(uuid4())
     if not os.path.exists(path_triple_dataset):
         os.mkdir(path_triple_dataset)
-    path = "./liar_dataset/"
+    
     dataset_name = os.path.join(path_triple_dataset, NAME + "_triple_" + UNIQUE_ID + tag)
 
     for i in tqdm(range(data.shape[0])):
