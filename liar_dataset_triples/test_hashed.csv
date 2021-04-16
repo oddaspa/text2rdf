@@ -1,0 +1,202 @@
+;text_id;head;relation;tail;label;o_head;o_tail;fb_head;fb_tail
+0;9524.json;Scott Walker;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Scott Walker;Gov.;/m/04tzmt;/m/05pd99q
+1;9524.json;Scott Walker;people/person/employment_history./business/employment_tenure/title;Journalist;FALSE;Scott Walker;reporter;/m/04tzmt;/m/0d8qb
+2;7070.json;County;location/hud_county_place/county;Carroll Shelby;TRUE;County;Shelby;/m/094z8;/m/029ljx
+3;1046.json;Joe Biden;people/person/employment_history./business/employment_tenure/title;Vice President of the United States;FALSE;Joe Biden;Vice President;/m/012gx2;/m/080v2
+4;2508.json;Chet Edwards;people/person/employment_history./business/employment_tenure/title;Member of Congress;FALSE;Edwards;Congressman;/m/03fmkq;/m/01gkgk
+5;1051.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Obama;President;/m/02mjmr;/m/060d2
+6;4553.json;Chris Christie;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Chris Christie;Gov.;/m/0f8t6k;/m/05pd99q
+7;9910.json;Dick Cheney;organization/role/leaders./organization/leadership/person;Islamic State of Iraq and the Levant;FALSE;Dick Cheney;ISIS;/m/0d0vj4;/m/027x630
+8;267.json;Bill Clinton;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Bill Clinton;President;/m/0157m;/m/060d2
+9;8849.json;David Cicilline;people/person/employment_history./business/employment_tenure/title;Rep;TRUE;David Cicilline;Rep.;/m/04t97v;/m/07r8g3
+10;7823.json;Chris Christie;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Christie;Gov.;/m/0f8t6k;/m/05pd99q
+11;2821.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+12;2821.json;Nancy Pelosi;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Nancy Pelosi;Rep.;/m/012v1t;/m/07r8g3
+13;2162.json;George Turner;people/person/employment_history./business/employment_tenure/title;Chief of police;FALSE;George Turner;Police Chief;/m/07dc5k;/m/039h8_
+14;8667.json;Hassan Rouhani;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Hassan Rouhani;President;/m/06sx5v;/m/060d2
+15;8941.json;Ted Nugent;people/person/employment_history./business/employment_tenure/title;Barack Obama;TRUE;Ted Nugent;Barack Obama;/m/013w8h;/m/02mjmr
+16;8941.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obama;President;/m/02mjmr;/m/060d2
+17;6579.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Obama;President;/m/02mjmr;/m/060d2
+18;6579.json;Barack Obama;organization/role/leaders./organization/leadership/person;Boeing;TRUE;Obama;Boeing;/m/02mjmr;/m/0178g
+19;1915.json;Lloyd Doggett;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Lloyd Doggett;Rep.;/m/03flzn;/m/07r8g3
+20;1915.json;Lloyd Doggett;organization/role/leaders./organization/leadership/person;United States Congress;FALSE;Lloyd Doggett;Congress;/m/03flzn;/m/07t31
+21;1915.json;Lloyd Doggett;organization/role/leaders./organization/leadership/person;United States Congress;FALSE;Lloyd Doggett;Congress;/m/03flzn;/m/07t31
+22;1915.json;United States Congress;organization/organization/headquarters./location/mailing_address/country;United States;FALSE;Congress;United States;/m/07t31;/m/09c7w0
+23;1915.json;Lloyd Doggett;organization/role/leaders./organization/leadership/person;United States Congress;FALSE;Lloyd Doggett;Congress;/m/03flzn;/m/07t31
+24;4698.json;Stephen M. Sweeney;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Stephen Sweeney;President;/m/05pn4f;/m/060d2
+25;4698.json;Stephen M. Sweeney;organization/role/leaders./organization/leadership/person;United States Senate;FALSE;Stephen Sweeney;Senate;/m/05pn4f;/m/07t58
+26;2585.json;Chris Coons;people/person/employment_history./business/employment_tenure/title;Candidate;FALSE;Chris Coons;candidate;/m/082d3d;Candidate
+27;2585.json;Chris Coons;organization/role/leaders./organization/leadership/person;United States Senate;FALSE;Chris Coons;Senate;/m/082d3d;/m/07t58
+28;6604.json;Tim Kaine;people/person/employment_history./business/employment_tenure/title;Governor;FALSE;Tim Kaine;governor;/m/053f8h;/m/05pd99q
+29;4495.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+30;8146.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obama;President;/m/02mjmr;/m/060d2
+31;8146.json;George W. Bush;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;George W. Bush;President;/m/09b6zr;/m/060d2
+32;13056.json;Thomas Suozzi;people/person/employment_history./business/employment_tenure/title;County;TRUE;Tom Suozzi;County;/m/060n4d;/m/094z8
+33;13056.json;County;location/hud_county_place/county;Nassau, Bahamas;TRUE;County;Nassau;/m/094z8;/m/05hcy
+34;1103.json;John Holdren;organization/role/leaders./organization/leadership/person;Office of Science and Technology Policy;FALSE;John Holdren;White House Office of Science and Technology Policy;/m/02qnwg0;/m/0ck20z
+35;4105.json;Sheila Harsdorf;organization/role/leaders./organization/leadership/person;Medicare;FALSE;Sheila Harsdorf;Medicare;Sheila Harsdorf;/m/0fzh9
+36;4105.json;Sheila Harsdorf;people/person/employment_history./business/employment_tenure/title;State senator;FALSE;Sheila Harsdorf;state Sen.;Sheila Harsdorf;/m/01t7n9
+37;9908.json;Roger Goodell;organization/role/leaders./organization/leadership/person;National Football League;TRUE;Roger Goodell;NFL;/m/0f_yml;/m/059yj
+38;11867.json;CNN;organization/role/leaders./organization/leadership/person;Ben Carson;FALSE;CNN;Ben Carson;/m/0gsgr;/m/03znkl
+39;9051.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+40;2897.json;Scott Walker;location/hud_county_place/county;County;FALSE;Scott Walker;County;/m/04tzmt;/m/094z8
+41;2897.json;Scott Walker;people/person/employment_history./business/employment_tenure/title;County;FALSE;Scott Walker;County;/m/04tzmt;/m/094z8
+42;2897.json;Scott Walker;people/person/employment_history./business/employment_tenure/title;Executive;FALSE;Scott Walker;Executive;/m/04tzmt;Executive
+43;2897.json;County;location/hud_county_place/county;Milwaukee;FALSE;County;Milwaukee;/m/094z8;/m/0dyl9
+44;6425.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Obama;President;/m/02mjmr;/m/060d2
+45;11711.json;Vladimir Putin;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Vladimir Putin;President;/m/08193;/m/060d2
+46;5470.json;County;location/hud_county_place/county;Pasco;TRUE;County;Pasco;/m/094z8;/m/010qh8
+47;10250.json;Tim Kaine;people/person/employment_history./business/employment_tenure/title;Senator;FALSE;Kaine;Senator;/m/053f8h;/m/048zv9l
+48;10250.json;Christa McAuliffe;people/person/employment_history./business/employment_tenure/title;Governor;FALSE;McAuliffe;Governor;/m/0m07m;/m/05pd99q
+49;6431.json;Mitt Romney;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Romney;Gov.;/m/0271_s;/m/05pd99q
+50;2615.json;Lee Fisher;people/person/employment_history./business/employment_tenure/title;Lieutenant governor;FALSE;Lee Fisher;Lt. Gov.;/m/034q8v;/m/0fkzq
+51;592.json;United States Senate;organization/organization/headquarters./location/mailing_address/country;United States;FALSE;Senate;United States;/m/07t58;/m/09c7w0
+52;12745.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obama;President;/m/02mjmr;/m/060d2
+53;6386.json;Jon Runyan;people/person/employment_history./business/employment_tenure/title;Member of Congress;FALSE;Jon Runyan;Congressman;/m/04q2pt;/m/01gkgk
+54;8676.json;Rick Scott;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Rick Scott;Gov.;/m/0btx2g;/m/05pd99q
+55;8853.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+56;10208.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+57;11409.json;Charlie Dent;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Charlie Dent;Rep.;/m/04fcm3;/m/07r8g3
+58;12994.json;Bill Clinton;people/person/employment_history./business/employment_tenure/title;Secretary;TRUE;Clinton;Secretary;/m/0157m;/m/01fcnx
+59;9891.json;Lorne Michaels;people/person/employment_history./business/employment_tenure/title;Executive producer;TRUE;Lorne Michaels;executive producer;/m/0p_2r;Executive producer
+60;9343.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+61;13467.json;Bill Clinton;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Bill Clinton;President;/m/0157m;/m/060d2
+62;379.json;Barack Obama;people/person/places_lived./people/place_lived/location;Europe;TRUE;Obama;Europe;/m/02mjmr;/m/02j9z
+63;10881.json;Scott Walker;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Scott Walkers;Gov.;/m/04tzmt;/m/05pd99q
+64;4770.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+65;5249.json;Bob McDonnell;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Bob McDonnells;Gov.;/m/09dvvy;/m/05pd99q
+66;4838.json;Connie Mack;people/person/employment_history./business/employment_tenure/title;Rep;TRUE;Connie Mack;Rep.;/m/04ffv_;/m/07r8g3
+67;12873.json;County;location/hud_county_place/county;Palm Beach, Florida;FALSE;County;Palm Beach;/m/094z8;/m/0rqf1
+68;6858.json;Gwen Moore;people/person/employment_history./business/employment_tenure/title;Rep;TRUE;Gwen Moore;Rep.;/m/04cvds;/m/07r8g3
+69;8701.json;Scott Walker;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Scott Walker;Gov.;/m/04tzmt;/m/05pd99q
+70;5758.json;Scott Walker;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Scott Walkers;Gov.;/m/04tzmt;/m/05pd99q
+71;5758.json;Tom Barrett;people/person/employment_history./business/employment_tenure/title;Mayor;FALSE;Tom Barrett;Mayor;/m/04qktl;/m/0pqc5
+72;5462.json;Marcy Kaptur;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Marcy Kaptur;Rep.;/m/039s3l;/m/07r8g3
+73;1955.json;James Langevin;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Jim Langevin;Rep.;/m/02tvqy;/m/07r8g3
+74;757.json;John McCain;people/person/places_lived./people/place_lived/location;Fannie Mae;TRUE;John McCain;Fannie;/m/0bymv;/m/01qxf8
+75;7378.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obamas;President;/m/02mjmr;/m/060d2
+76;1823.json;Halliburton;organization/role/leaders./organization/leadership/person;Dick Cheney;TRUE;Halliburton;Dick Cheney;/m/01cvy3;/m/0d0vj4
+77;9594.json;Fox News;organization/organization/headquarters./location/mailing_address/country;Canada;FALSE;Fox News;Canada;/m/0cjdk;/m/0d060g
+78;5971.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+79;6857.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+80;9050.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obamas;President;/m/02mjmr;/m/060d2
+81;6532.json;Mitt Romney;people/person/employment_history./business/employment_tenure/title;Governor;TRUE;Romney;Governor;/m/0271_s;/m/05pd99q
+82;6532.json;Paul Ryan;people/person/employment_history./business/employment_tenure/title;Member of Congress;TRUE;Ryan;Congressman;/m/024v2j;/m/01gkgk
+83;12791.json;Mike Pence;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Mike Pence;Gov.;/m/022r9r;/m/05pd99q
+84;12791.json;Mike Coffman;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Mike Coffman;Rep.;/m/03gy95d;/m/07r8g3
+85;2165.json;Sam Olens;organization/role/leaders./organization/leadership/person;American Civil Liberties Union;TRUE;Sam Olens;ACLU;Sam Olens;/m/0vkm
+86;5653.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+87;3103.json;George Allen;organization/role/leaders./organization/leadership/person;United States Senate;TRUE;George Allen;U.S. Senate;/m/04c_3b;/m/07t58
+88;6839.json;Tommy Thompson;organization/role/leaders./organization/leadership/person;United States Senate;FALSE;Tommy Thompson;U.S. Senate;/m/01fwm3;/m/07t58
+89;4579.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obamas;President;/m/02mjmr;/m/060d2
+90;2720.json;Elmer Thomas;organization/role/leaders./organization/leadership/person;United States Senate;FALSE;Elmer;Senate;/m/07f7r8;/m/07t58
+91;2720.json;Elmer Thomas;people/person/employment_history./business/employment_tenure/title;Mr. Monk and the Candidate;FALSE;Elmer;candidate Monk;/m/07f7r8;Mr. Monk and the Candidate
+92;605.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;Senator;FALSE;Obama;Senator;/m/02mjmr;/m/048zv9l
+93;10544.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+94;9692.json;Carlos Curbelo;people/person/employment_history./business/employment_tenure/title;Candidate;FALSE;Carlos Curbelo;candidate;/m/0127nzmk;Candidate
+95;9692.json;Carlos Curbelo;organization/role/leaders./organization/leadership/person;United States House of Representatives;FALSE;Carlos Curbelo;U.S. House;/m/0127nzmk;/m/0b3wk
+96;12870.json;Bill Clinton;organization/role/leaders./organization/leadership/person;Clinton Foundation;FALSE;Clintons;Clinton Foundation;/m/0157m;/m/0fqw_s
+97;12870.json;Bill Clinton;organization/role/leaders./organization/leadership/person;Clinton Foundation;FALSE;Clintons;Clinton Foundation;/m/0157m;/m/0fqw_s
+98;10633.json;Barack Obama;organization/role/leaders./organization/leadership/person;Hamas;FALSE;Obama;Hamas;/m/02mjmr;/m/03m6j
+99;10633.json;Hamas;organization/role/leaders./organization/leadership/person;Iran;FALSE;Hamas;Iran;/m/03m6j;/m/03shp
+100;10633.json;Barack Obama;organization/role/leaders./organization/leadership/person;Hamas;FALSE;Obama;Hamas;/m/02mjmr;/m/03m6j
+101;10633.json;Barack Obama;organization/role/leaders./organization/leadership/person;Hamas;FALSE;Obama;Hamas;/m/02mjmr;/m/03m6j
+102;13213.json;Loretta Sanchez;people/person/employment_history./business/employment_tenure/title;Alexandria Ocasio-Cortez;TRUE;Loretta Sanchez;Congresswoman;/m/0jbty;/m/01gkgk
+103;2117.json;Diane Denish;people/person/employment_history./business/employment_tenure/title;New Mexico;TRUE;Diane Denish;New Mexico;/m/091plh;/m/05fjy
+104;2117.json;Diane Denish;people/person/employment_history./business/employment_tenure/title;New Mexico;TRUE;Diane Denish;New Mexico;/m/091plh;/m/05fjy
+105;2117.json;Diane Denish;people/person/employment_history./business/employment_tenure/title;2021 Virginia gubernatorial election;TRUE;Diane Denish;gubernatorial candidate;/m/091plh;2021 Virginia gubernatorial election
+106;3980.json;Chris Christie;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Chris Christies;Gov.;/m/0f8t6k;/m/05pd99q
+107;10271.json;Kasim Reed;people/person/employment_history./business/employment_tenure/title;Mayor;TRUE;Kasim Reed;Mayor;/m/03x_sks;m/0pqc5
+108;4866.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obamas;President;/m/02mjmr;/m/060d2
+109;6011.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obama;President;/m/02mjmr;/m/060d2
+110;255.json;Bill Clinton;people/person/employment_history./business/employment_tenure/title;Senator;TRUE;Clinton;Senator;/m/0157m;/m/048zv9l
+111;12720.json;Bashar al-Assad;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Assad;President;/m/01_vwx;/m/060d2
+112;12720.json;Bashar al-Assad;people/person/employment_history./business/employment_tenure/title;Leadership;TRUE;Assad;leader;/m/01_vwx;/m/025rt2s
+113;12720.json;Bashar al-Assad;people/person/employment_history./business/employment_tenure/title;Leadership;TRUE;Assad;leader;/m/01_vwx;/m/025rt2s
+114;1653.json;Donald Trump;organization/role/leaders./organization/leadership/person;Facebook;TRUE;Donald Trump;Facebook;/m/0cqt90;/m/02y1vz
+115;1653.json;Thomas Jefferson;people/person/places_lived./people/place_lived/location;City;TRUE;Jefferson;City;/m/07cbs;/m/01n32
+116;10111.json;Charlie Crist;people/person/employment_history./business/employment_tenure/title;Governor;FALSE;Charlie Crist;governor;/m/04jyvv;/m/05pd99q
+117;5131.json;County;location/hud_county_place/county;Carroll Shelby;TRUE;County;Shelby;/m/094z8;/m/029ljx
+118;6813.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+119;699.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;Senator;TRUE;Obama;Senator;/m/02mjmr;/m/048zv9l
+120;12478.json;Joe;people/person/employment_history./business/employment_tenure/title;Nancy Pelosi;FALSE;Joe;Nancy Pelosi;/m/03b_hhb;/m/012v1t
+121;12478.json;Joe Heck;people/person/employment_history./business/employment_tenure/title;Member of Congress;FALSE;Joe Heck;Congressman;/m/03b_hhb;/m/01gkgk
+122;4432.json;John Kasich;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Kasich;Gov.;/m/02zzm_;/m/05pd99q
+123;9431.json;Debbie Wasserman Schultz;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Debbie Wasserman Schultz;Rep.;/m/04cmyw;/m/07r8g3
+124;7721.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obama;President;/m/02mjmr;/m/060d2
+125;6123.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+126;6720.json;Paul Ryan;organization/role/leaders./organization/leadership/person;House;FALSE;Paul Ryan;House;/m/024v2j;/m/0b3wk
+127;6720.json;House;organization/organization/headquarters./location/mailing_address/country;Us;FALSE;House;U.S.;/m/0b3wk;/m/09c7w0
+128;4442.json;Rick Perry;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Rick Perry;Gov.;/m/02nlj_;/m/05pd99q
+129;2040.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+130;1641.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+131;1462.json;Rick Perry;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Rick Perry;Gov.;/m/02nlj_;/m/05pd99q
+132;6035.json;Mitt Romney;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Mitt Romney;Gov.;/m/0271_s;/m/05pd99q
+133;4198.json;Josh Mandel;people/person/employment_history./business/employment_tenure/title;Treasurer;FALSE;Josh Mandel;Treasurer;/m/043rh3n;/m/01kr6k
+134;2640.json;Bruce Starr;people/person/places_lived./people/place_lived/location;Maui;FALSE;Bruce Starr;Maui;/m/0408l7x;/m/0jbs5
+135;2640.json;Bruce Starr;people/person/places_lived./people/place_lived/location;Maui;FALSE;Bruce Starr;Maui;/m/0408l7x;/m/0jbs5
+136;13324.json;Ford Motor Company;organization/organization/headquarters./location/mailing_address/country;Mexico;TRUE;Ford;Mexico;/m/02zs4;/m/0b90_r
+137;6811.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Obama;President;/m/02mjmr;/m/060d2
+138;6811.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;China;TRUE;Obama;China;/m/02mjmr;/m/0d05w3
+139;10906.json;Noah Galloway;organization/role/leaders./organization/leadership/person;Army;FALSE;Noah Galloway;Army;/m/01211fpy;/m/0pd7
+140;5091.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obamas;President;/m/02mjmr;/m/060d2
+141;40.json;Ralph Reed;people/person/employment_history./business/employment_tenure/title;Activism;TRUE;Ralph Reed;activist;/m/04kwzx;/m/0xzm
+142;40.json;Michael McCaul;people/person/employment_history./business/employment_tenure/title;Rep;TRUE;Michael McCaul;Rep.;/m/0492cz;/m/07r8g3
+143;3957.json;Tim Kaine;organization/role/leaders./organization/leadership/person;Democratic National Committee;FALSE;Tim Kaines;DNC;/m/053f8h;/m/018y36
+144;3957.json;Tim Kaine;people/person/employment_history./business/employment_tenure/title;Chairperson;FALSE;Tim Kaines;Chairman;/m/053f8h;Chairperson
+145;3957.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+146;9793.json;Gary Peters;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Gary Peters;Rep.;/m/02x0lnt;/m/07r8g3
+147;11296.json;Kim Davis;people/person/employment_history./business/employment_tenure/title;Clerk;FALSE;Kim Davis;clerk;Kim Davis;/m/03x6qd
+148;2581.json;County;location/hud_county_place/county;Ashland, Oregon;FALSE;County;Ashland;/m/094z8;/m/0jv5j
+149;9588.json;Jack Kingston;people/person/employment_history./business/employment_tenure/title;Candidate;TRUE;Jack Kingston;candidate;/m/02553h;Candidate
+150;9588.json;Jack Kingston;organization/role/leaders./organization/leadership/person;United States Senate;TRUE;Jack Kingston;U.S. Senate;/m/02553h;/m/07t58
+151;5848.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+152;10561.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obamas;President;/m/02mjmr;/m/060d2
+153;11284.json;George W. Bush;people/person/employment_history./business/employment_tenure/title;Governor;TRUE;Bush;governor;/m/09b6zr;/m/05pd99q
+154;2723.json;John Kasich;people/person/employment_history./business/employment_tenure/title;Member of Congress;FALSE;Kasich;Congressman;/m/02zzm_;/m/01gkgk
+155;3194.json;County;location/hud_county_place/county;Milwaukee;FALSE;County;Milwaukee;/m/094z8;/m/0dyl9
+156;985.json;Sarah Palin;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Sarah Palin;Gov.;/m/08f3b1;/m/05pd99q
+157;985.json;Mark Begich;organization/role/leaders./organization/leadership/person;Alaska Democratic Party;FALSE;Mark Begich;Alaskas Democratic;/m/05pqtr;/m/0288j0x
+158;985.json;Mark Begich;people/person/employment_history./business/employment_tenure/title;Senator;FALSE;Mark Begich;Senator;/m/05pqtr;/m/048zv9l
+159;5283.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;Barack Obama;President;/m/02mjmr;/m/060d2
+160;6320.json;Mitt Romney;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Romneys;Gov.;/m/0271_s;/m/05pd99q
+161;2460.json;Reid Ribble;people/person/employment_history./business/employment_tenure/title;Politician;FALSE;Reid Ribble;Politician;/m/0dddvmy;/m/0fj9f
+162;2460.json;Reid Ribble;organization/role/leaders./organization/leadership/person;Social+Security;FALSE;Reid Ribble;Social Security;/m/0dddvmy;Social+Security
+163;7195.json;Todd Akin;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Todd Akin;Rep.;/m/025xzm;/m/07r8g3
+164;794.json;Henry Paulson;people/person/employment_history./business/employment_tenure/title;Secretary;TRUE;Paulson;Secretary;/m/05rgkg;Secretary
+165;794.json;Ben Bernanke;organization/role/leaders./organization/leadership/person;Federal Reserve;TRUE;Bernanke;Federal Reserve;/m/05_xks;/m/02xmb
+166;794.json;Ben Bernanke;people/person/employment_history./business/employment_tenure/title;Chairperson;TRUE;Bernanke;Chairman;/m/05_xks;Chairperson
+167;3508.json;JoAnne Kloppenburg;organization/role/leaders./organization/leadership/person;Supreme Court of the United States;FALSE;JoAnne Kloppenburgs;Supreme Court;/m/0gjc9b1;/m/07sz1
+168;6469.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obama;President;/m/02mjmr;/m/060d2
+169;2738.json;Jill Chambers;organization/role/leaders./organization/leadership/person;Statehouse;FALSE;Jill Chambers;State House;Jill Chambers;/m/0br45s
+170;2738.json;Jill Chambers;organization/role/leaders./organization/leadership/person;Statehouse;FALSE;Jill Chambers;State House;Jill Chambers;/m/0br45s
+171;11955.json;Chris Abele;people/person/employment_history./business/employment_tenure/title;Executive;FALSE;Chris Abele;Executive;/m/0g54k50;Executive
+172;11955.json;Chris Abele;organization/role/leaders./organization/leadership/person;Milwaukee County, Wisconsin;FALSE;Chris Abele;Milwaukee County;/m/0g54k50;/m/0mkqr
+173;1515.json;Michele Michele Bachmann;people/person/employment_history./business/employment_tenure/title;Congresswoman;TRUE;Bachmann;Congresswoman;/m/06jm4y;/m/01gkgk
+174;9553.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+175;11184.json;Scott Walker;organization/role/leaders./organization/leadership/person;Marquette University;FALSE;Scott Walker;Marquette University;/m/04tzmt;/m/037fqp
+176;3460.json;Mark Kvamme;people/person/employment_history./business/employment_tenure/title;Director;TRUE;Mark Kvamme;Director;Mark Kvamme;Director
+177;6197.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obamas;President;/m/02mjmr;/m/060d2
+178;6436.json;Tommy Thompson;organization/role/leaders./organization/leadership/person;United States Senate;TRUE;Tommy Thompson;U.S. Senate;/m/01fwm3;/m/07t58
+179;70.json;Paul Ryan;people/person/employment_history./business/employment_tenure/title;Member of Congress;TRUE;Paul;Congressman;/m/024v2j;/m/01gkgk
+180;70.json;Paul Ryan;people/person/employment_history./business/employment_tenure/title;Year;TRUE;Paul;year;/m/024v2j;/m/0887n
+181;70.json;Paul Ryan;people/person/employment_history./business/employment_tenure/title;Year;TRUE;Paul;year;/m/024v2j;/m/0887n
+182;6401.json;Connie Mack IV;people/person/employment_history./business/employment_tenure/title;Rep;TRUE;Connie Mack IV;Rep.;/m/04ffv_;/m/07r8g3
+183;5095.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+184;4977.json;Tim Ryan;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Tim Ryan;Rep.;/m/039tr9;/m/07r8g3
+185;4977.json;American Conservative Union;organization/role/leaders./organization/leadership/person;Tim Ryan;FALSE;American Conservative Union;Tim Ryan;/m/02yppp;/m/039tr9
+186;11704.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obama;President;/m/02mjmr;/m/060d2
+187;6816.json;United States of America;people/person/employment_history./business/employment_tenure/title;Jimmy Carter;FALSE;U.S.;Jimmy Carter;/m/09c7w0;/m/042kg
+188;6816.json;Jimmy Carter;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Jimmy Carter;President;/m/042kg;/m/060d2
+189;6816.json;United States of America;people/person/employment_history./business/employment_tenure/title;Jimmy Carter;FALSE;U.S.;Jimmy Carter;/m/09c7w0;/m/042kg
+190;8303.json;Chris Christie;people/person/employment_history./business/employment_tenure/title;governor;TRUE;Chris Christie;Gov.;/m/0f8t6k;/m/05pd99q
+191;11887.json;John F. Kennedy;people/person/employment_history./business/employment_tenure/title;President of the United States;TRUE;John F. Kennedy;President;/m/0d3k14;/m/060d2
+192;6097.json;Paul Broun;people/person/employment_history./business/employment_tenure/title;Rep;TRUE;Paul Broun;Rep.;/m/02vzlfc;/m/07r8g3
+193;1950.json;Hank Johnson;people/person/employment_history./business/employment_tenure/title;Rep;FALSE;Hank Johnson;Rep.;/m/0flgyy;/m/07r8g3
+194;6119.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Obamas;President;/m/02mjmr;/m/060d2
+195;6045.json;Barack Obama;organization/role/leaders./organization/leadership/person;FedEx Office;FALSE;Obama;Kinkos;/m/02mjmr;/m/06610r
+196;6045.json;Neil Abercrombie;people/person/employment_history./business/employment_tenure/title;governor;FALSE;Neil Abercrombie;Gov.;/m/0255rj;/m/05pd99q
+197;6045.json;Barack Obama;people/person/employment_history./business/employment_tenure/title;President of the United States;FALSE;Barack Obamas;President;/m/02mjmr;/m/060d2
+198;339.json;Barack Obama;organization/role/leaders./organization/leadership/person;Legislature;TRUE;Barack Obama;Legislature;/m/02mjmr;/m/0c3b0
+199;4250.json;Sandy Pasch;people/person/employment_history./business/employment_tenure/title;state+Rep.;FALSE;Sandy Pasch;state Rep.;Sandy Pasch;state+Rep.
+200;1005.json;Barack Obama;organization/role/leaders./organization/leadership/person;United States;FALSE;Obama;USA;/m/02mjmr;/m/09c7w0
